@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-9 bgc" v-for="prob in articles">
+      <div class="col-12 bgc" v-for="prob in articles">
         <div class="tags">
           <span>Криминал</span>
           <span>Детектив</span>
@@ -38,20 +38,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col-3 new-theme-main">
-        <div class="new-theme lead">
-          Новые темы
-        </div>
-        <div class="new-tagline">
-          <img class="new-theme-img" src="../assets/user.png" alt="">
-          <a href="" class="author">NAME</a>
-          <div class="new-theme-desc lead">
-            balblalbalbalblalblabllbalbl
-            blablalbalbalblabla
-            balbalblalbalblalbalbalblabla
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
